@@ -1,29 +1,26 @@
-# Create React Express App
+# Book Search Application
 
-## About This Boilerplate
+Search for any book, get a full description of the book, and save the book to a list. Delete saved book off of list as well.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Technologies
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+JavaScript
+React.js
+HTML
+CSS
 
-## Starting the app locally
+## Deployed link
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
 
-```
-npm install
-```
 
-This should install node modules within the server and the client folder.
+### MIT License
 
-After both installations complete, run the following command in your terminal:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-```
-npm start
-```
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Deployment (Heroku)
+### Screen Shot of Website
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+<img src="public/ScreenShot.png" >
