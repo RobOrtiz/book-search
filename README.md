@@ -23,4 +23,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Screen Shot of Website
 
-<img src="public/Screen Shot.png" >
+<img src="client/public/Screen Shot.png" >
