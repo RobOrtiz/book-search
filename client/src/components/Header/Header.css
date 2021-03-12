@@ -1,0 +1,13 @@
+.jumbotron {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 100px;
+    margin: 0px;
+    margin-bottom: 5%;
+    display: table;
+    padding: 180px 20px;
+    color: #ffffff;	    
+    background-image: url("https://cottagelife.com/wp-content/uploads/2018/09/shutterstock_522019972-1200x744.jpg");
+    background-size: cover;
+	background-attachment: fixed;
+}
