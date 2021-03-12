@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Jumbotron from "../components/Header";
-import API from "../utils/Api";
+import Header from "../components/Header";
+import API from "../utils/API";
 // import { Link } from "react-router-dom";
 import {  Container } from "../components/Grid";
-import { List, ListItem } from "../components/SearchList";
+import { SearchList, ListItem } from "../components/SearchList";
 
 class Saved extends Component {
   state = {
@@ -31,9 +31,9 @@ class Saved extends Component {
   render() {
     return (
       <div>
-      <Jumbotron>
+      <Header>
       <h1>Books On My List</h1>
-    </Jumbotron>
+    </Header>
       <Container fluid>
             {this.state.books.length ? (
               <SearchList>

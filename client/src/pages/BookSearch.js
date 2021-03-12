@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { BookListItem } from "../components/Books";
 import API from "../utils/API";
 import { Container, Row, Col } from "../components/Grid";
-import { Input, FormBtn } from "../components/Input";
+import { Input, InputBtn } from "../components/Input";
 
 class Books extends Component {
   state = {
@@ -60,12 +60,12 @@ class Books extends Component {
                 name="search"
                 placeholder="Search for a Book"
               />
-              <FormBtn
+              <InputBtn
                 disabled={!(this.state.search)}
                 onClick={this.handleFormSubmit}
               >
                 Search Book
-              </FormBtn>
+              </InputBtn>
             </form>
             </div>
             </Col>

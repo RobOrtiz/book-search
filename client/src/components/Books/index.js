@@ -1,10 +1,11 @@
+import React from "react";
 import Thumbnail from "../Thumbnail";
 import { Container, Row, Col } from "../Grid";
 import "./Books.css";
 
-// export function BookList({ children }) {
-//   return <ul className="list-group">{children}</ul>;
-// }
+export function BookList({ children }) {
+  return <ul className="list-group">{children}</ul>;
+}
 
 export function BookListItem(props) {
   return (
